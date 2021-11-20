@@ -18,6 +18,7 @@ WORDS = []  # a list that contains all words in the dictionary
 def play(map, r, c, s, found):
     """
     Utilize DFS algorithm to find words in a the given board
+    
     :param map: (list) A list of list to represent the board
     :param r: (int) An int that represents the current row
     :param c: (int) An int that represents the current column
